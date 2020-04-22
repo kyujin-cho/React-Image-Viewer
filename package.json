@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack --devtool source-map --watch",
+    "build": "webpack"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "react": "^16.13.1",
