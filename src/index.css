@@ -1,0 +1,55 @@
+.preview-card {
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 96%;
+  margin: 8px;
+}
+
+.tn-image .ms-Image {
+  width: 400px;
+  height: 600px;
+}
+
+.ms-DocumentCardTitle {
+  font-weight: bold;
+}
+
+.ms-DocumentCardDetails {
+  margin: 10px;
+}
+
+h1,
+h2,
+.ms-DocumentCardDetails,
+.image-page,
+label {
+  font-family: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI',
+    -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.label-wrapper {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+label {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pagination-row {
+  margin: auto;
+}
+.pagination-row .ms-Pagination-container {
+  display: inline-block;
+}
+
+.image-page {
+  margin: auto;
+  text-align: center;
+  font-size: 10px;
+}
